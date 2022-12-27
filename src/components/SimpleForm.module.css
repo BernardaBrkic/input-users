@@ -1,0 +1,39 @@
+.button-field {
+  display: flex;
+  flex-direction: column;
+}
+.min-form {
+  background: linear-gradient(to right, #ffdcde, #f3dbff, #e8fbff);
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+.button-field button {
+  width: fit-content;
+  align-self: flex-end;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #12c2e9;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-field button:hover {
+  background-color: #c471ed;
+  transition: 0.2s;
+}
+.button-field button:disabled {
+  cursor: not-allowed;
+  background-color: #cedade;
+}
+p {
+  margin-top: 0.5rem;
+  color: #f64f59;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
